@@ -1,0 +1,108 @@
+.mainContact-section .sectionHeading {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-align: center;
+  color: rgb(1, 7, 56);
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: relative;
+  margin-bottom: 1rem;
+  white-space: nowrap;
+}
+
+.address {
+  margin: 1.2rem 0;
+}
+
+.addressText {
+  font-size: 1rem;
+  color: rgb(1, 7, 56);
+}
+
+.contact-icons {
+  padding: 0.2rem 0.6rem;
+  background-color: #fddb42;
+  border-radius: 100%;
+  color: rgb(1, 7, 56);
+  font-size: 1.5rem;
+}
+
+.contactText {
+  background-color: rgb(1, 7, 56);
+  color: #fddb42 !important;
+}
+
+.contactFormSide h3 {
+  color: rgb(1, 7, 56);
+  font-weight: bolder;
+}
+
+.credentials {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.textFields {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 18px;
+  background: "#fff";
+  box-shadow: 0px 0px 2px 0px rgba(1, 7, 56, 0.3);
+}
+
+.textFields::placeholder {
+  color: rgba(1, 7, 56, 0.5);
+}
+
+.MessageArea {
+  width: 100%;
+}
+
+.message {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 18px;
+  background: "#fff";
+  box-shadow: 0px 0px 2px 0px rgba(1, 7, 56, 0.3);
+}
+
+.message::placeholder {
+  color: rgba(1, 7, 56, 0.5);
+}
+
+.sendBtn {
+  background-color: #fddb42;
+  box-shadow: 0px 0px 4px 0px rgba(1, 7, 56, 0.3);
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 8px 16px;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  letter-spacing: 1px;
+}
+
+.map {
+  width: 100%;
+  /* border: 3px solid #fddb4240; */
+  box-shadow: 0px 0px 2px 0px rgba(1, 7, 56, 0.3);
+  border-radius: 6px;
+}
+
+.map iframe {
+  width: 100%;
+  border-radius: 8px;
+}

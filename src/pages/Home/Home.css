@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap");
+.home_section {
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.h-left .h_greating_text {
+  font-size: 3rem;
+  font-family: "League Spartan", sans-serif;
+  color:rgb(1, 7, 56);
+}
+.h-left .h-name {
+  font-family: "League Spartan", sans-serif;
+  color:rgb(1, 7, 56);
+  font-size: 3rem;
+  font-weight: bold;
+  width: 100%;
+}
+.socialIcons {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(1, 7, 56);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+}
+.socialIcons::after {
+  width: 55px;
+  height: 55px;
+  content: "";
+  background-color: #fddb42;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border-radius: 50%;
+}
+.socialIcons:hover {
+  color: rgb(1, 7, 56);
+  background-color: #fddb42;
+  transform: scale(1.08);
+  transition: all 0.3s linear;
+}
+.h-left .h-intro-para {
+  text-align: center;
+  font-size: 20px;
+}
+.h-left .h-btn {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+.h-btn .cv_btn,
+.h-btn .hire_btn {
+  color: rgb(1, 7, 56) !important;
+  padding: 0.5rem 1.3rem;
+  background-color: #fddb42;
+  box-shadow: 0px 0px 6px 0px rgba(1, 7, 56, 0.359);
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 8px;
+}
+.h-btn .cv_btn:hover,
+.h-btn .hire_btn:hover {
+  border: 1px solid rgb(0, 24, 37);
+  background-color: #fafafa;
+  box-shadow: inset 0px 0px 4px 0px rgba(0, 24, 37, 0.359);
+}
+.h-right img {
+  width: 13.5rem;
+  margin-right: 3rem;
+  margin-top: 1rem;
+}
+.h-right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.h-right-box {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  background: #fddb42;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100% 100% 0 100%;
+  z-index: -1;
+}
+.h-right-innerbox {
+  width: 26rem;
+  height: 26rem;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.h-right-mostinner {
+  width: 22rem;
+  height: 22rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fddb42;
+  border-radius: 100%;
+}
+.h-right-mostinner::after {
+  content: "";
+  height: 22rem;
+  width: 22rem;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 100%;
+  border: 3px solid #fddb42;
+  opacity: 0;
+  animation: animate 1s infinite linear;
+  animation-delay: 0.4s;
+  z-index: 1;
+}
+.h-right-mostinner::before {
+  content: "";
+  height: 22rem;
+  width: 22rem;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 100%;
+  border: 3px solid #fddb42;
+  opacity: 0;
+  animation: animate 1s infinite linear;
+  z-index: 1;
+}
+.h-left .h_greating_text {
+  font-size: 4rem;
+  margin: 1rem 0 0 1rem;
+}
+.greeting-text-div {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes animate {
+  from {
+    transform: scale(1);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+.icons {
+  animation: wave 1.7s infinite linear;
+  font-size: 48px;
+  position: relative;
+  color: #ffd000;
+}
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(10deg) translateX(1.3rem);
+  }
+  20% {
+    transform: rotate(-10deg) translateX(-1.3rem);
+  }
+  30% {
+    transform: rotate(8deg) translateX(1rem);
+  }
+  40% {
+    transform: rotate(-8deg) translateX(-1rem);
+  }
+  50% {
+    transform: rotate(5deg) translateX(0.4rem);
+  }
+  60% {
+    transform: rotate(-5deg) translateX(-0.4rem);
+  }
+  70% {
+    transform: rotate(3deg) translateX(0.1rem);
+  }
+  80% {
+    transform: rotate(-3deg) translateX(-0.1rem);
+  }
+  90%,
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@media (max-width: 960px) {
+  .h-right img {
+    width: 13.5rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+  }
+}
