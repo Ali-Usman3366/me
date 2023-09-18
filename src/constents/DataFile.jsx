@@ -160,7 +160,7 @@ export const portfolioData = [
     ],
   },
   {
-    icon: "./Images/Propertyhunt.svg",
+    icon: "./Images/propertyhunt.svg",
     title: "Property Hunt",
     data: [
       "./Images/Propertyhunt/0.png",

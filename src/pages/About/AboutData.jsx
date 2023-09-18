@@ -9,7 +9,7 @@ const AboutData = () => {
             <div className="circle-bg-img"></div>
             <div className="about-box"></div>
             <div className="about-box2"></div>
-            <img src="./images/about.png" className="about-Image" alt="" />
+            <img src="./Images/about.png" className="about-Image" alt="" />
           </div>
         </div>
         <div className="col-lg-7 col-sm-12">
